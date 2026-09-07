@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sujai Balasubramaniam — Applied Research Notes</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap masthead-row">
+    <div style="display:flex;gap:20px;align-items:center;">
+      <img src="sujai-photo.jpg" alt="Sujai Balasubramaniam" style="width:88px;height:88px;border-radius:50%;object-fit:cover;flex-shrink:0;border:1px solid var(--line);">
+      <div>
+        <h1 class="serif">Sujai Balasubramaniam</h1>
+        <p class="role">Applied Research in Textile Manufacturing. Research notes, technical papers, and models connecting spinning mechanics, process statistics, and rubber compound science to industrial practice.</p>
+      </div>
+    </div>
+    <div class="masthead-stat">
+      <div class="n mono" id="pubCountHeader">–</div>
+      <div class="l">archive entries</div>
+    </div>
+  </div>
+</header>
+
+<nav class="wrap" style="max-width:760px;margin:0 auto;padding-left:24px;padding-right:24px;">
+  <button data-view="home" class="active">Home</button>
+  <button data-view="research">Research</button>
+  <button data-view="archive">Publications</button>
+  <button data-view="blog">Field Notes</button>
+  <button data-view="about">About</button>
+  <div class="nav-right">
+    <span id="whoami"></span>
+    <button class="account-btn" id="accountNavBtn">Sign in</button>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <section id="view-home" class="active">
+    <div class="home-hero">
+      <svg width="120" height="90" viewBox="0 0 120 90" aria-hidden="true">
+        <path d="M2 80 C 20 20, 40 20, 60 45 S 100 70, 118 10" fill="none" stroke="#285C5E" stroke-width="2"/>
+        <line x1="2" y1="80" x2="118" y2="80" stroke="#CFC9BB" stroke-width="1"/>
+      </svg>
+      <p><strong style="color:var(--ink);">Research &rarr; Evidence &rarr; Models &rarr; Industrial Application.</strong> Over 20 years in textile-spinning component manufacturing, pairing shop-floor problem solving with independent research spanning distribution theory, SPC methodology, and textile mechanics.</p>
+    </div>
+    <div class="home-grid">
+      <div class="stat-card">
+        <div class="n mono" id="homePubCount">–</div>
+        <div class="l">archive entries</div>
+      </div>
+      <div class="stat-card">
+        <div class="n mono" id="homePostCount">–</div>
+        <div class="l">field notes</div>
+      </div>
+    </div>
+
+    <h2 class="section-title">Research areas</h2>
+    <div id="researchAreasHome"></div>
+
+    <h2 class="section-title">Featured research</h2>
+    <div id="featuredHome"></div>
+
+    <h2 class="section-title">Elsewhere</h2>
+    <div class="home-links">
+      <a href="https://orcid.org/0009-0002-3412-8355" target="_blank" rel="noopener">ORCID — complete publication record</a>
+      <a href="https://linkedin.com/in/sujai-balasubramaniam-5823b447" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:sujai.aarthi@gmail.com">sujai.aarthi@gmail.com</a>
+    </div>
+    <p style="font-size:13px;color:var(--ink-soft);margin-top:14px;">Peer reviewer for AJPAS, AJRCS, and ETASR.</p>
+  </section>
+
+  <section id="view-research">
+    <h2 class="section-title">Research areas</h2>
+    <div id="researchAreasFull"></div>
+  </section>
+
+  <section id="view-about">
+    <h2 class="section-title">About</h2>
+    <div style="display:flex;gap:20px;align-items:flex-start;margin-bottom:24px;">
+      <img src="sujai-photo.jpg" alt="Sujai Balasubramaniam" style="width:100px;height:100px;border-radius:50%;object-fit:cover;flex-shrink:0;border:1px solid var(--line);">
+      <div>
+        <p class="serif" style="font-size:20px;font-weight:600;margin:0 0 4px;">Sujai Balasubramaniam</p>
+        <p style="font-size:14px;color:var(--ink-soft);margin:0;">ASQ CSSBB &middot; General Manager, Technology &amp; Operations Excellence &mdash; Inarco Private Limited</p>
+      </div>
+    </div>
+    <p style="font-size:14px;line-height:1.7;color:var(--ink-soft);max-width:600px;">Over 20 years in textile-spinning component manufacturing (rubber cots and aprons), specialising in statistical process control, root-cause investigation, and data-driven process optimisation. Pairs shop-floor problem solving with an independent research practice spanning distribution theory, SPC methodology, and textile mechanics &mdash; publishing on Zenodo, ResearchGate, and Academia.edu, and peer reviewing for AJPAS, AJRCS, and ETASR.</p>
+    <h2 class="section-title" style="margin-top:28px;">Research philosophy</h2>
+    <p style="font-size:14px;line-height:1.7;color:var(--ink-soft);max-width:600px;">An industrial observation becomes a research question when the standard explanation stops fitting the data. The path from there runs through measurement, a statistical or mechanistic model, and back to experimental validation on the shop floor &mdash; publications are the record of that process, not the goal of it.</p>
+    <h2 class="section-title" style="margin-top:28px;">Background</h2>
+    <div style="font-size:14px;color:var(--ink-soft);line-height:1.7;">
+      <p><strong style="color:var(--ink);">General Manager, Technology &amp; Operations Excellence</strong> — Inarco Private Limited, Sep 2026&ndash;present, Bhavnagar<br>
+      <span style="font-size:13px;">Leads technology and operations excellence initiatives across Inarco's manufacturing plants.</span></p>
+      <p><strong style="color:var(--ink);">Deputy General Manager, Application Technology Division</strong> — Inarco Private Limited, Jul 2021&ndash;Aug 2026, Coimbatore<br>
+      <span style="font-size:13px;">Led statistical distribution-fitting and SPC studies, cross-functional root-cause investigations, and DOE-based compound development; built internal analytical tools now used in daily quality operations.</span></p>
+      <p><strong style="color:var(--ink);">Research Technologist &rarr; Application Technologist</strong> — Inarco Private Limited, Mar 2006&ndash;Jun 2021, Bhavnagar<br>
+      <span style="font-size:13px;">Technical application support for rubber cots and aprons in ring-spinning operations.</span></p>
+      <p style="font-size:13px;">B.Tech, Textile Sciences and Engineering &mdash; Latha Mathavan Engineering College, Madurai (1996&ndash;1999)</p>
+    </div>
+  </section>
+
+  <section id="view-archive">
+    <h2 class="section-title">Publications</h2>
+    <p style="font-size:14px;color:var(--ink-soft);margin:-8px 0 20px;">
+      Selected research below. The complete record of 186+ works is on your
+      <a href="https://orcid.org/0009-0002-3412-8355" target="_blank" rel="noopener">ORCID</a> — public, no login required.
+    </p>
+    <div id="archiveList"></div>
+  </section>
+
+  <section id="view-pubdetail">
+    <button class="back-link" id="backToPubs">&larr; Back to publications</button>
+    <h2 class="post-title serif" id="pubTitle" style="font-size:24px;"></h2>
+    <p class="pub-meta" id="pubMeta"></p>
+    <div id="pubDetailBody"></div>
+  </section>
+
+  <section id="view-blog">
+    <h2 class="section-title">Field Notes</h2>
+    <p style="font-size:14px;color:var(--ink-soft);margin:-8px 0 20px;">Short technical investigations that don't necessarily belong in a formal paper — the working-out, not just the conclusion.</p>
+    <div id="blogList"></div>
+  </section>
+
+  <section id="view-post">
+    <button class="back-link" id="backToBlog">&larr; Back to field notes</button>
+    <h2 class="post-title serif" id="postTitle" style="font-size:26px;"></h2>
+    <div class="post-date mono" id="postDate"></div>
+    <div class="post-detail-body" id="postBody"></div>
+    <div class="comments">
+      <h2 class="section-title" style="border:none;padding-bottom:0;">Comments</h2>
+      <div id="commentList"></div>
+      <div id="commentFormArea"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  <p>&copy; Sujai Balasubramaniam. Contact: <a href="mailto:sujai.aarthi@gmail.com">sujai.aarthi@gmail.com</a></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
